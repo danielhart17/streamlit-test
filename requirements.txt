@@ -9,4 +9,3 @@ yfinance
 uvicorn
 fastapi
 fredapi
-```
