@@ -8,3 +8,5 @@ tensorflow
 yfinance
 uvicorn
 fastapi
+fredapi
+```
