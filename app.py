@@ -27,8 +27,8 @@ def predict_price(data: PriceFeatures):
     prediction = priceModel.predict([[open, high, low, rsi, zlema, stochrsi, percent_b, qstick]])
     return {'prediction': float(prediction[0])}
 
-# if __name__ == '__main__':
-#     uvicorn.run(fastAPIapp, host='127.0.0.1', port=8000)
+if __name__ == '__main__':
+    uvicorn.run(fastAPIapp, host='0.0.0.0', port=10000)
 
 # import streamlit as st
 # import pandas as pd
