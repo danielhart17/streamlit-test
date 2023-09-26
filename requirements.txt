@@ -11,3 +11,4 @@ fastapi
 fredapi
 protobuf==3.20.*
 keras
+keras.src
