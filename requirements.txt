@@ -9,3 +9,4 @@ yfinance
 uvicorn
 fastapi
 fredapi
+protobuf==3.20.*
